@@ -1,0 +1,69 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.caja
+{
+    width: 200px;
+    height: 25px;
+    border: 1px solid blue;
+    padding-left: 5px;   
+}
+select
+{
+    width: 205px;
+    height: 30px;
+
+}
+.caja, select{
+   border: 1px solid #CCC;
+   border-radius: 5px;
+}
+.btn{
+	width: 100px;
+	height: 30px;
+	border:none;
+	color:white;
+	font-weight: bold;
+	border-radius: 5px;
+	background: #0B2161;
+}
+
+label{
+	font-weight: bold;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+.container{
+	width: 350px;
+	height: auto;
+	border: 1px solid #CCC;
+	padding: 20px;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+table#tabla {
+	border-collapse: collapse;
+	border: 1px solid #CCC;
+	font-size: 12px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ 
+table#tabla th {
+	font-weight: bold;
+	background-color: #E1E1E1;
+	padding:5px;
+}
+ 
+table#tabla tbody tr:hover td {
+	background-color: #F3F3F3;
+}
+ 
+table#tabla td {
+	padding: 5px 10px;
+}
+td{
+	border: 1px solid #CCC;
+}
